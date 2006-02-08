@@ -45,7 +45,6 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %attr(755,root,root) %{_bindir}/mlmmj-*
 %doc AUTHORS ChangeLog README* FAQ TODO TUNABLES UPGRADE contrib
-%dir %{_datadir}/mlmmj
-%dir /var/spool/mlmmj
-%{_datadir}/mlmmj/text.skel/*
+%dir /var/spool/%{name}
+%{_datadir}/%{name}
 %{_mandir}/man1/mlmmj-*
