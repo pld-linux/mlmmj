@@ -43,8 +43,8 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%attr(755,root,root) %{_bindir}/mlmmj-*
 %doc AUTHORS ChangeLog README* FAQ TODO TUNABLES UPGRADE contrib
-%dir /var/spool/%{name}
+%attr(755,root,root) %{_bindir}/mlmmj-*
 %{_datadir}/%{name}
+%dir /var/spool/%{name}
 %{_mandir}/man1/mlmmj-*
