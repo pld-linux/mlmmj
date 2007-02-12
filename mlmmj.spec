@@ -1,5 +1,5 @@
 Summary:	Mailserver-independent ezmlm-like mailing list manager
-Summary(pl):	Niezale¿ny zarz±dca list pocztowych podobny do ezmlm
+Summary(pl.UTF-8):   NiezaleÅ¼ny zarzÄ…dca list pocztowych podobny do ezmlm
 Name:		mlmmj
 Version:	1.2.11
 Release:	0.1
@@ -17,11 +17,11 @@ intended to mimic the functionality of the ezmlm-idx mailing list
 manager often used with Prof. Dan Bernstein's qmail, but with an open
 license and mailserver indepdendence.
 
-%description -l pl
-mlmmj (Mailing List Managing Made Joyful) jest zarz±dc± list
-pocztowych przeznaczonym do na¶ladowania funkcjonalno¶ci ezmlm-idx.
-Czêsto u¿ywany jest z qmailem Prof. Dana Bernsteina, ale z otwart±
-licencj± i niezale¿nymi serwerami pocztowymi.
+%description -l pl.UTF-8
+mlmmj (Mailing List Managing Made Joyful) jest zarzÄ…dcÄ… list
+pocztowych przeznaczonym do naÅ›ladowania funkcjonalnoÅ›ci ezmlm-idx.
+CzÄ™sto uÅ¼ywany jest z qmailem Prof. Dana Bernsteina, ale z otwartÄ…
+licencjÄ… i niezaleÅ¼nymi serwerami pocztowymi.
 
 %prep
 %setup -q
