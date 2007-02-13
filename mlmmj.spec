@@ -1,5 +1,5 @@
 Summary:	Mailserver-independent ezmlm-like mailing list manager
-Summary(pl.UTF-8):   Niezależny zarządca list pocztowych podobny do ezmlm
+Summary(pl.UTF-8):	Niezależny zarządca list pocztowych podobny do ezmlm
 Name:		mlmmj
 Version:	1.2.11
 Release:	0.1
