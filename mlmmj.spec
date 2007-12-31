@@ -1,12 +1,14 @@
+# TODO
+# - check if --enable-recieve-strip can be added by default (is non-intrusive)
 Summary:	Mailserver-independent ezmlm-like mailing list manager
 Summary(pl.UTF-8):	Niezależny zarządca list pocztowych podobny do ezmlm
 Name:		mlmmj
-Version:	1.2.11
+Version:	1.2.15
 Release:	0.1
 License:	MIT
 Group:		Applications
 Source0:	http://mlmmj.mmj.dk/files/%{name}-%{version}.tar.bz2
-# Source0-md5:	dac2f49183225ec750a0d69952b66275
+# Source0-md5:	465b01218c3834346ecc7b25a9d9208d
 URL:		http://mlmmj.mmj.dk/
 Requires:	smtpdaemon
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -34,7 +36,7 @@ licencją i niezależnymi serwerami pocztowymi.
 rm -rf $RPM_BUILD_ROOT
 
 %{__make} install \
-        DESTDIR=$RPM_BUILD_ROOT
+	DESTDIR=$RPM_BUILD_ROOT
 
 install -d $RPM_BUILD_ROOT/var/spool/mlmmj
 
