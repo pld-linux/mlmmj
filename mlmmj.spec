@@ -3,12 +3,12 @@
 Summary:	Mailserver-independent ezmlm-like mailing list manager
 Summary(pl.UTF-8):	Niezależny zarządca list pocztowych podobny do ezmlm
 Name:		mlmmj
-Version:	1.2.15
+Version:	1.2.16
 Release:	0.1
 License:	MIT
 Group:		Applications
 Source0:	http://mlmmj.mmj.dk/files/%{name}-%{version}.tar.bz2
-# Source0-md5:	465b01218c3834346ecc7b25a9d9208d
+# Source0-md5:	9ea7ba91ccb55b9edf3e5148537364e3
 URL:		http://mlmmj.mmj.dk/
 Requires:	smtpdaemon
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
